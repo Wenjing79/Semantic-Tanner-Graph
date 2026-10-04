@@ -1,0 +1,8 @@
+count_method,component,FLOPs,GFLOPs
+analytical,attention_projections,7488405504,7.488405504
+analytical,attention_qk_and_av,351019008,0.351019008
+analytical,feed_forward_projections,52418838528,52.418838528
+analytical,byte_classification_head,97976320,0.09797632
+profiler,aten::mm,59907244032,59.907244032
+profiler,aten::bmm,351019008,0.351019008
+profiler,aten::addmm,97976320,0.09797632

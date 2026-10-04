@@ -1,0 +1,11 @@
+scope,seed
+Clean source split,20260906
+Dataset shuffle,20260906
+BP-pair channel noise,42
+BP-pair generation order,20251026
+Model training (NumPy and PyTorch),42
+SF-BP validation parameter selection,20260602
+SF-BP test (2.0;2.5;3.0 dB),20260602
+SF-BP test (3.5;4.0 dB),20260915
+BM-BP test (2.0;2.5;3.0 dB),20260602
+BM-BP test (3.5;4.0 dB),20260919

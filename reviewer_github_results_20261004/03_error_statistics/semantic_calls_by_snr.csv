@@ -1,0 +1,11 @@
+receiver,snr_db,N_blocks,maximum_semantic_calls,semantic_run_count,mean_semantic_calls,mean_final_used_iterations,mean_pure_used_iterations,timing_scope,source_run_id,aggregate_file
+SF-BP,2.0,20992,6,23862,1.13671875,7.629239710365853,50.0,amortized batch receiver wall time; not a warmed single-block latency benchmark,sf_original_2_to_3db,sf_bp_results_summary_public.json
+SF-BP,2.5,203776,6,207616,1.0188442211055277,5.290780072236181,50.0,amortized batch receiver wall time; not a warmed single-block latency benchmark,sf_original_2_to_3db,sf_bp_results_summary_public.json
+SF-BP,3.0,1000000,6,1001931,1.001931,4.127116,50.0,amortized batch receiver wall time; not a warmed single-block latency benchmark,sf_original_2_to_3db,sf_bp_results_summary_public.json
+SF-BP,3.5,3700000,6,3700860,1.0002324324324325,3.4639245945945945,50.0,amortized batch receiver wall time; not a warmed single-block latency benchmark,sf_rerun_3p5db,sf_bp_results_summary_public.json
+SF-BP,4.0,7372800,6,7372974,1.0000236002604166,3.01278564453125,49.99932671440972,amortized batch receiver wall time; not a warmed single-block latency benchmark,sf_rerun_4db,sf_bp_results_summary_public.json
+BM-BP,2.0,12288,6,17575,1.4302571614583333,10.29248046875,50.0,amortized batch receiver wall time; not a warmed single-block latency benchmark,bm_original_2_to_3db,bm_bp_results_summary_public.json
+BM-BP,2.5,81920,6,90268,1.101904296875,6.9833251953125,50.0,amortized batch receiver wall time; not a warmed single-block latency benchmark,bm_original_2_to_3db,bm_bp_results_summary_public.json
+BM-BP,3.0,434176,6,441519,1.0169124963148586,5.031102594339623,50.0,amortized batch receiver wall time; not a warmed single-block latency benchmark,bm_original_2_to_3db,bm_bp_results_summary_public.json
+BM-BP,3.5,1208320,6,1210590,1.0018786414194916,3.9069700079449152,50.0,amortized batch receiver wall time; not a warmed single-block latency benchmark,bm_rerun_3p5db,bm_bp_results_summary_public.json
+BM-BP,4.0,1835008,6,1835344,1.00018310546875,3.246739523751395,49.99892589024135,amortized batch receiver wall time; not a warmed single-block latency benchmark,bm_rerun_4db,bm_bp_results_summary_public.json

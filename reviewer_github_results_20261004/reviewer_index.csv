@@ -1,0 +1,13 @@
+reviewer,comment,subject,section
+1,2,Block-error statistics and APP-LLR distributions,03_error_statistics/;05_app_llr/
+1,3,Dataset and model-training settings,01_data_training/;02_parameter_studies/
+1,4,Main coding and experimental configuration,01_data_training/;03_error_statistics/
+1,6,Parameter sensitivity,02_parameter_studies/
+1,7,Temperature and semantic-scale selection,02_parameter_studies/
+1,8,Byte errors and exact source-block recovery,03_error_statistics/
+1,9,Model resources and measurement procedure,04_resources_latency/
+1,10,Latency settings and per-block timing,04_resources_latency/
+2,4,Calibration and parameter sensitivity,02_parameter_studies/
+2,6,Error counts confidence sequences and syndrome-valid errors,03_error_statistics/
+2,7,Actual model invocations and component timings,04_resources_latency/
+2,9,Dataset construction training and parameter selection,01_data_training/;02_parameter_studies/

@@ -1,0 +1,13 @@
+quantity,value,unit,scope
+encoder_and_byte_head_parameters,218034560,parameters,ByT5-small encoder plus 256-class byte head; no decoder
+fp32_parameter_tensor_storage,872138240,bytes,Parameter tensors; not checkpoint file size
+fp32_parameter_tensor_storage,831.73583984375,MiB,Parameter tensors; one resident model reused for all calls
+single_inference_matrix_flops,60356239360,FLOPs,Dominant matrix operations; one MAC = two FLOPs
+single_inference_matrix_flops,60.35623936,GFLOPs,Excludes CPU BP/semantic updates and non-matrix operations
+six_inference_matrix_flops_upper_bound,362.13743616,GFLOPs,Exact single-call count times six; rounded display is 362.14
+baseline_allocated_bytes,909271040,bytes,Steady-state PyTorch GPU tensors; context/driver and non-PyTorch allocations excluded
+peak_allocated_bytes,920897536,bytes,Steady-state PyTorch GPU tensors; context/driver and non-PyTorch allocations excluded
+peak_reserved_bytes,996147200,bytes,Steady-state PyTorch GPU tensors; context/driver and non-PyTorch allocations excluded
+additional_peak_above_baseline_bytes,11626496,bytes,Steady-state PyTorch GPU tensors; context/driver and non-PyTorch allocations excluded
+peak_allocated_MiB,878.236328125,MiB,Steady-state PyTorch GPU tensors; context/driver and non-PyTorch allocations excluded
+peak_reserved_MiB,950.0,MiB,Steady-state PyTorch GPU tensors; context/driver and non-PyTorch allocations excluded

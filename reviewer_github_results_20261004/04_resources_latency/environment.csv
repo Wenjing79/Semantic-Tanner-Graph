@@ -1,0 +1,32 @@
+field,value
+python,"3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]"
+platform,Windows-10-10.0.26200-SP0
+processor,"Intel64 Family 6 Model 151 Stepping 2, GenuineIntel"
+cpu_count,20
+hardware.CPU,12th Gen Intel(R) Core(TM) i7-12700F
+hardware.Cores,12
+hardware.LogicalProcessors,20
+hardware.RAMBytes,34193903616
+hardware.OS,Microsoft Windows 11 专业版
+hardware.Build,26200
+packages.numpy,1.24.3
+packages.numba,0.60.0
+packages.torch,2.0.1+cu117
+packages.transformers,4.36.2
+cuda_runtime,11.7
+device,cuda
+model_dtype,torch.float32
+autocast,false
+torch_threads,1
+interop_threads,1
+cuda_device,NVIDIA GeForce RTX 3060
+gpu_driver_query,"name, memory.total [MiB], driver_version
+NVIDIA GeForce RTX 3060, 12288 MiB, 591.86"
+deterministic_algorithms,true
+tf32,false
+bp_workers,1
+thread_env.OMP_NUM_THREADS,
+thread_env.MKL_NUM_THREADS,
+thread_env.OPENBLAS_NUM_THREADS,
+batch_size,1
+model_mode,"eval, no_grad"

@@ -1,0 +1,3 @@
+phase,seconds,included_in_block_timing,scope
+cuda_context_setup_seconds,0.04573129999999992,false,"One observed load after hash verification/imports/CUDA setup; OS file cache uncontrolled, NOT a cold-disk estimate"
+model_construction_checkpoint_load_and_device_transfer_seconds,2.0634434,false,"One observed load after hash verification/imports/CUDA setup; OS file cache uncontrolled, NOT a cold-disk estimate"

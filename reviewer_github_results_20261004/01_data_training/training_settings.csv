@@ -1,0 +1,36 @@
+setting,value
+pretrained_backbone,ByT5-small encoder
+epochs,8
+training_batch_size,16
+validation_batch_size,128
+base_learning_rate,0.0002
+weight_decay,0.0
+warmup_steps,1000
+gradient_clip_max_norm,1.0
+frozen_encoder_layers,0
+classifier_head_dropout,0.0
+max_input_length,160
+max_segment_bytes,130
+expected_segment_bytes,130
+minimum_segment_bytes_argument,1
+loader_workers,2
+training_seed,42
+precision,BF16 enabled; FP16 disabled
+row_limits,train=null; validation=null
+optimizer,AdamW
+learning_rate_schedule,linear warm-up then cosine decay
+training_objective,mean byte cross-entropy on unscaled logits; T=1
+training_seed_scope,NumPy and PyTorch
+validation_frequency,every epoch
+checkpoint_selection,minimum logged validation loss
+selected_epoch,6
+selected_validation_loss,0.16391783766859677
+validation_loss_aggregation,arithmetic mean of per-batch mean CE
+selected_validation_byte_accuracy,0.9540542639002717
+encoder_layers,12
+hidden_dimension,1472
+attention_heads,6
+byte_classes,256
+trainable_parameters,218034560
+selected_temperature,1.3
+selected_alpha,0.8
