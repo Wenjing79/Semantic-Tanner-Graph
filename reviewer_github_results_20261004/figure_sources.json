@@ -1,0 +1,123 @@
+{
+  "scope": "Results and figures only; no new simulation or inference.",
+  "figures": {
+    "06_decoding_dynamics/overall_error_evolution.png": {
+      "type": "original_publication_figure",
+      "sources": [
+        "06_decoding_dynamics/error_evolution.csv"
+      ],
+      "note": "Original 2 dB, 50,000-block empirical mechanism study; maximum six ByT5 invocations."
+    },
+    "06_decoding_dynamics/overall_error_evolution.pdf": {
+      "type": "original_publication_figure",
+      "sources": [
+        "06_decoding_dynamics/error_evolution.csv"
+      ],
+      "note": "Original 2 dB, 50,000-block empirical mechanism study; maximum six ByT5 invocations."
+    },
+    "06_decoding_dynamics/inner_message_densities.png": {
+      "type": "original_publication_figure",
+      "sources": [
+        "06_decoding_dynamics/inner_density_bins.csv"
+      ],
+      "note": "Original 2 dB, 50,000-block empirical mechanism study; maximum six ByT5 invocations."
+    },
+    "06_decoding_dynamics/inner_message_densities.pdf": {
+      "type": "original_publication_figure",
+      "sources": [
+        "06_decoding_dynamics/inner_density_bins.csv"
+      ],
+      "note": "Original 2 dB, 50,000-block empirical mechanism study; maximum six ByT5 invocations."
+    },
+    "06_decoding_dynamics/outer_message_densities.png": {
+      "type": "original_publication_figure",
+      "sources": [
+        "06_decoding_dynamics/outer_density_bins.csv"
+      ],
+      "note": "Original 2 dB, 50,000-block empirical mechanism study; maximum six ByT5 invocations."
+    },
+    "06_decoding_dynamics/outer_message_densities.pdf": {
+      "type": "original_publication_figure",
+      "sources": [
+        "06_decoding_dynamics/outer_density_bins.csv"
+      ],
+      "note": "Original 2 dB, 50,000-block empirical mechanism study; maximum six ByT5 invocations."
+    },
+    "figures/bp_sfbp_app_densities.png": {
+      "type": "original_publication_figure",
+      "sources": [
+        "05_app_llr/app_density_bins.csv",
+        "05_app_llr/terminal_metrics.csv"
+      ],
+      "note": "Same 50,000 received blocks at 2 dB; 0/1/6 maximum semantic calls."
+    },
+    "figures/bp_sfbp_app_densities.pdf": {
+      "type": "original_publication_figure",
+      "sources": [
+        "05_app_llr/app_density_bins.csv",
+        "05_app_llr/terminal_metrics.csv"
+      ],
+      "note": "Same 50,000 received blocks at 2 dB; 0/1/6 maximum semantic calls."
+    },
+    "figures/main_reliability.png": {
+      "type": "plot_from_published_data",
+      "sources": [
+        "03_error_statistics/per_snr_metrics.csv"
+      ],
+      "note": "BLER bars: per-point 95% confidence sequences. ByteER has no interval shown. SF-BP and BM-BP runs are not mutually paired at high SNR."
+    },
+    "figures/main_reliability.pdf": {
+      "type": "plot_from_published_data",
+      "sources": [
+        "03_error_statistics/per_snr_metrics.csv"
+      ],
+      "note": "BLER bars: per-point 95% confidence sequences. ByteER has no interval shown. SF-BP and BM-BP runs are not mutually paired at high SNR."
+    },
+    "figures/training_calibration.png": {
+      "type": "plot_from_published_data",
+      "sources": [
+        "01_data_training/training_history.csv",
+        "02_parameter_studies/validation_temperature.csv"
+      ],
+      "note": "Logged training/validation losses average batch means; calibration NLL is byte-weighted. Test data do not select the checkpoint or temperature."
+    },
+    "figures/training_calibration.pdf": {
+      "type": "plot_from_published_data",
+      "sources": [
+        "01_data_training/training_history.csv",
+        "02_parameter_studies/validation_temperature.csv"
+      ],
+      "note": "Logged training/validation losses average batch means; calibration NLL is byte-weighted. Test data do not select the checkpoint or temperature."
+    },
+    "figures/parameter_sensitivity.png": {
+      "type": "plot_from_published_data",
+      "sources": [
+        "02_parameter_studies/sensitivity_alpha.csv",
+        "02_parameter_studies/sensitivity_temperature.csv"
+      ],
+      "note": "Bars: per-point 95% confidence sequences. Each sweep uses its own common prefix; the reference BLER differs between panels."
+    },
+    "figures/parameter_sensitivity.pdf": {
+      "type": "plot_from_published_data",
+      "sources": [
+        "02_parameter_studies/sensitivity_alpha.csv",
+        "02_parameter_studies/sensitivity_temperature.csv"
+      ],
+      "note": "Bars: per-point 95% confidence sequences. Each sweep uses its own common prefix; the reference BLER differs between panels."
+    },
+    "figures/latency_calls.png": {
+      "type": "plot_from_published_data",
+      "sources": [
+        "04_resources_latency/latency_summary.csv"
+      ],
+      "note": "A separate timing cohort, not the main BLER experiment. Repeated timings are not independent transmissions; early stopping reduces calls."
+    },
+    "figures/latency_calls.pdf": {
+      "type": "plot_from_published_data",
+      "sources": [
+        "04_resources_latency/latency_summary.csv"
+      ],
+      "note": "A separate timing cohort, not the main BLER experiment. Repeated timings are not independent transmissions; early stopping reduces calls."
+    }
+  }
+}

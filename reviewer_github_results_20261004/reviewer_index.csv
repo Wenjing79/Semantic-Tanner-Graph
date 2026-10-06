@@ -11,3 +11,4 @@ reviewer,comment,subject,section
 2,6,Error counts confidence sequences and syndrome-valid errors,03_error_statistics/
 2,7,Actual model invocations and component timings,04_resources_latency/
 2,9,Dataset construction training and parameter selection,01_data_training/;02_parameter_studies/
+3,3,Inner iterations outer invocations and paired probability refresh,06_decoding_dynamics/
